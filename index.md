@@ -38,8 +38,8 @@ title: Solutions with Explanation
 * [Python](#)
 
 {: #specification .uk-switcher .uk-margin }
-* C++17, compiled with GCC 9 & Boost Library 1.67, tested with Boost.Test
-* Kotlin, compiled with Kotlin 1.3.72 (API version 1.1 for compatibility with web submission system), tested with JUnit 5
+* C++17, compiled with GCC 9 & Boost Library 1.59+, tested with Boost.Test
+* Kotlin, compiled with Kotlin 1.3 (API version 1.1 for compatibility with web submission system), tested with JUnit 5
 * Python 3.8, by official CPython interpreter
 
 {% for config in site.data.config %}

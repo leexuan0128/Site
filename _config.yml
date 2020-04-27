@@ -25,5 +25,5 @@ exclude:
   - Pages
   - Python
   - README.md
-  - serve.sh
+  - '*.sh'
   - LICENCE

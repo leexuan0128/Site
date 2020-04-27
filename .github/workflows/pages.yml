@@ -19,7 +19,7 @@ jobs:
         with:
           ssh-key: ${{ secrets.COMMON_KEY }}
           ref: gh-pages
-          path: Pages
+          path: _site
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: 2.5
@@ -29,13 +29,11 @@ jobs:
           path: vendor/bundle
           key: ${{ runner.os }}-gems-${{ hashFiles('Gemfile.lock') }}
           restore-keys: ${{ runner.os }}-gems-
-      - name: Bundle install
+      - name: Build static site by Jekyll
         run: |
           bundle config path vendor/bundle
-          bundle install --jobs 4
-          bundle update --all --jobs 4
-      - name: Build static site by Jekyll
-        run: bundle exec jekyll build -d Pages
+          ./dep.sh
+          ./build.sh
       - name: Commit & Push
         run: |
           git add .
@@ -43,4 +41,4 @@ jobs:
           git config --global user.email "me@tinson.dev"
           git commit -am ${{ github.sha }}
           git push
-        working-directory: Pages
+        working-directory: _site

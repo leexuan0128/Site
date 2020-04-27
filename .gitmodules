@@ -1,0 +1,12 @@
+[submodule "Generator"]
+	path = Generator
+	url = git@github.com:UoA-SP-2020-Sem-1-Group-7/Generator.git
+[submodule "CPP"]
+	path = CPP
+	url = git@github.com:UoA-SP-2020-Sem-1-Group-7/CPP.git
+[submodule "Kotlin"]
+	path = Kotlin
+	url = git@github.com:UoA-SP-2020-Sem-1-Group-7/Kotlin.git
+[submodule "Python"]
+	path = Python
+	url = git@github.com:UoA-SP-2020-Sem-1-Group-7/Python.git

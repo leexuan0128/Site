@@ -1,0 +1,29 @@
+theme: jekyll-theme-cayman
+
+lang: en
+
+title: COMP SCI 7007 Specialised Programming
+description: Course @ University of Adelaide
+show_downloads: false
+
+google_analytics: UA-164510098-1
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CPP
+  - Generator
+  - Kotlin
+  - Pages
+  - Python
+  - README.md
+  - serve.sh
+  - LICENCE

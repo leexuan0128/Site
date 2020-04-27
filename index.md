@@ -14,7 +14,7 @@ title: Solutions with Explanation
 <script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.5.0/dist/mermaid.min.js" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js" onload='Array.prototype.forEach.call(document.getElementsByClassName("chartjs"), function(element) { new Chart(element, JSON.parse(element.innerHTML)); })' crossorigin="anonymous"></script>
 
-[![GitHub Pages](https://github.com/laitingsheng/Specialised-Programming/workflows/GitHub%20Pages/badge.svg)](https://github.com/laitingsheng/Specialised-Programming)
+[![GitHub Pages](https://github.com/UoA-SP-2020-Sem-1-Group-7/Site/workflows/GitHub%20Pages/badge.svg)](https://github.com/UoA-SP-2020-Sem-1-Group-7/Site)
 [![Generator](https://github.com/UoA-SP-2020-Sem-1-Group-7/Generator/workflows/Generator/badge.svg)](https://github.com/UoA-SP-2020-Sem-1-Group-7/Generator)
 [![codecov](https://codecov.io/gh/UoA-SP-2020-Sem-1-Group-7/Generator/branch/master/graph/badge.svg)](https://codecov.io/gh/UoA-SP-2020-Sem-1-Group-7/Generator)
 
